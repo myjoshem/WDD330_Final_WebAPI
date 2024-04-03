@@ -1,0 +1,274 @@
+// LocalHost
+
+GET http://localhost:8080/content_creators HTTP/1.1
+
+###
+GET http://localhost:8080/content_creators/65c8238714c82e951cda5c7c HTTP/1.1
+
+###
+POST http://localhost:8080/content_creators HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Annmarie",
+    "lastName": "SanSevero",
+    "jobTitle": "Goddess"
+}
+
+###
+PUT http://localhost:8080/content_creators/65c8238714c82e951cda5c82 HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "firstName": "Annmarie",
+    "lastName": "SanSevero",
+    "jobTitle": "Goddess"
+}
+
+###
+DELETE http://localhost:8080/content_creators/65ac6f2434a91f6062cc44b2 HTTP/1.1
+
+###
+GET http://localhost:8080/inventory HTTP/1.1
+
+###
+GET http://localhost:8080/inventory/65c8238714c82e951cda5c7c HTTP/1.1
+
+###
+POST http://localhost:8080/inventory HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "contentTitle": "1984",
+    "contentType": "Book",
+    "contentCreator": "George Orwell",
+    "releaseDate": "1949-06-08",
+    "quantity": 50,
+    "averageCondition": "Fair",
+    "physicalCopy": true
+}
+
+###
+PUT http://localhost:8080/inventory/65c8238714c82e951cda5c82 HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "contentTitle": "1984",
+    "contentType": "Book",
+    "contentCreator": "George Orwell",
+    "releaseDate": "1949-06-08",
+    "quantity": 50,
+    "averageCondition": "Fair",
+    "physicalCopy": true
+}
+
+###
+DELETE http://localhost:8080/inventory/65ac6f2434a91f6062cc44b2 HTTP/1.1
+
+###
+GET http://localhost:8080/borrowers HTTP/1.1
+
+###
+GET http://localhost:8080/borrowers/#1 HTTP/1.1
+
+###
+POST http://localhost:8080/borrowers HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Josh",
+    "lastName": "Herring",
+    "dateBorrowed": "2023-12-31",
+    "inventoryBorrowed": "Dune",
+    "dateDue": "2024-02-31",
+    "conditionReturned": "n/a"
+}
+
+###
+PUT http://localhost:8080/borrowers/1HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Josh",
+    "lastName": "Herring",
+    "dateBorrowed": "2023-12-31",
+    "inventoryBorrowed": "Dune",
+    "dateDue": "2024-02-31",
+    "conditionReturned": "n/a"
+}
+
+###
+DELETE http://localhost:8080/borrowers/1 HTTP/1.1
+
+###
+GET http://localhost:8080/events HTTP/1.1
+
+###
+GET http://localhost:8080/events/65c8238714c82e951cda5c7c HTTP/1.1
+
+###
+POST http://localhost:8080/events HTTP/1.1
+Content-Type: application/json
+
+{
+    "eventName": "Learn to Jazz Hands",
+    "eventType": "Workshop",
+    "creator": "Danuta Raine",
+    "date": "2024-06-18",
+    "ticketed": "false",
+    "cost": "0.00"
+}
+
+###
+PUT http://localhost:8080/events/65c8238714c82e951cda5c82 HTTP/1.1
+Content-Type: application/json
+
+{
+    "eventName": "Learn to Jazz Hands",
+    "eventType": "Workshop",
+    "creator": "Danuta Raine",
+    "date": "2024-06-18",
+    "ticketed": "false",
+    "cost": "0.00"
+}
+
+###
+DELETE http://localhost:8080/events/65ac6f2434a91f6062cc44b2 HTTP/1.1
+
+// PRODUCTION
+###
+
+GET http://cse341-final-project-my43.onrender.com/content_creators HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/content_creators/65c8238714c82e951cda5c7c HTTP/1.1
+
+###
+POST http://cse341-final-project-my43.onrender.com/content_creators HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Annmarie",
+    "lastName": "SanSevero",
+    "jobTitle": "Goddess"
+}
+
+###
+PUT http://cse341-final-project-my43.onrender.com/content_creators/65c8238714c82e951cda5c82 HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "firstName": "Annmarie",
+    "lastName": "SanSevero",
+    "jobTitle": "Goddess"
+}
+
+###
+DELETE http://cse341-final-project-my43.onrender.com/content_creators/65ac6f2434a91f6062cc44b2 HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/inventory HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/inventory/65c8238714c82e951cda5c7c HTTP/1.1
+
+###
+POST http://cse341-final-project-my43.onrender.com/inventory HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "contentTitle": "1984",
+    "contentType": "Book",
+    "contentCreator": "George Orwell",
+    "releaseDate": "1949-06-08",
+    "quantity": 50,
+    "averageCondition": "Fair",
+    "physicalCopy": true
+}
+
+###
+PUT http://cse341-final-project-my43.onrender.com/inventory/65c8238714c82e951cda5c82 HTTP/1.1
+Content-Type: application/json
+
+{ 
+    "contentTitle": "1984",
+    "contentType": "Book",
+    "contentCreator": "George Orwell",
+    "releaseDate": "1949-06-08",
+    "quantity": 50,
+    "averageCondition": "Fair",
+    "physicalCopy": true
+}
+
+###
+DELETE http://cse341-final-project-my43.onrender.com/inventory/65ac6f2434a91f6062cc44b2 HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/borrowers HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/borrowers/#1 HTTP/1.1
+
+###
+POST http://cse341-final-project-my43.onrender.com/borrowers HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Josh",
+    "lastName": "Herring",
+    "dateBorrowed": "2023-12-31",
+    "inventoryBorrowed": "Dune",
+    "dateDue": "2024-02-31",
+    "conditionReturned": "n/a"
+}
+
+###
+PUT http://cse341-final-project-my43.onrender.com/borrowers/1HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Josh",
+    "lastName": "Herring",
+    "dateBorrowed": "2023-12-31",
+    "inventoryBorrowed": "Dune",
+    "dateDue": "2024-02-31",
+    "conditionReturned": "n/a"
+}
+
+###
+DELETE http://cse341-final-project-my43.onrender.com/borrowers/1 HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/events HTTP/1.1
+
+###
+GET http://cse341-final-project-my43.onrender.com/events/65c8238714c82e951cda5c7c HTTP/1.1
+
+###
+POST http://cse341-final-project-my43.onrender.com/events HTTP/1.1
+Content-Type: application/json
+
+{
+    "eventName": "Learn to Jazz Hands",
+    "eventType": "Workshop",
+    "creator": "Danuta Raine",
+    "date": "2024-06-18",
+    "ticketed": "false",
+    "cost": "0.00"
+}
+
+###
+PUT http://cse341-final-project-my43.onrender.com/events/65c8238714c82e951cda5c82 HTTP/1.1
+Content-Type: application/json
+
+{
+    "eventName": "Learn to Jazz Hands",
+    "eventType": "Workshop",
+    "creator": "Danuta Raine",
+    "date": "2024-06-18",
+    "ticketed": "false",
+    "cost": "0.00"
+}
+
+###
+DELETE http://cse341-final-project-my43.onrender.com/events/65ac6f2434a91f6062cc44b2 HTTP/1.1

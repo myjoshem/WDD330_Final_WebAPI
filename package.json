@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.17.1",
+    "mongodb": "^6.3.0",
+    "swagger": "^0.0.1",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0",
+    "validatorjs": "^3.22.1"
+  },
+  "name": "cse341-github-projects",
+  "version": "1.0.0",
+  "description": "CSE341 Node Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "swagger": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myjoshem/CSE341-Week05-BookServer.git"
+  },
+  "author": "michelle markham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myjoshem/CSE341-Week05-BookServer/issues"
+  },
+  "homepage": "https://github.com/myjoshem/CSE341-Week05-BookServer#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "3.0.2",
+    "prettier": "^3.2.4",
+    "swagger-autogen": "^2.23.7"
+  }
+}
