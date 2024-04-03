@@ -2,14 +2,14 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: 'My MongoDB API',
-    description: 'Books API'
+    title: 'Essential Oils Shop API',
+    description: 'Database of essential oils and other inventory collections for shop'
   },
-  host: 'cse341-book-server.onrender.com',
+  host: 'wdd330-final-webapi.onrender.com',
   schemes: ['https', 'http']
 };
 
-const outputFile = './swagger-output.json';
+const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/index.js'];
 
 // generate swagger.json
