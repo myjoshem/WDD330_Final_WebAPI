@@ -5,15 +5,9 @@
     "description": "Books API",
     "version": "1.0.0"
   },
-  "host": [
-    "cse341-book-server.onrender.com",
-    "localhost:8080"
-  ],
+  "host": ["cse341-book-server.onrender.com", "localhost:8080"],
   "basePath": "/",
-  "schemes": [
-    "https",
-    "http"
-  ],
+  "schemes": ["https", "http"],
   "paths": {
     "/api-docs": {
       "get": {
@@ -28,9 +22,7 @@
     "/books/": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "OK"
@@ -93,9 +85,7 @@
     "/books/{id}": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "id",
@@ -200,9 +190,7 @@
     "/authors/": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "OK"
@@ -250,9 +238,7 @@
     "/authors/{id}": {
       "get": {
         "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "id",

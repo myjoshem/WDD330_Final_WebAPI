@@ -16,9 +16,8 @@ const validateData = (req, res, next, validationRule) => {
   });
 };
 
-
-const saveOils = ( req, res, next ) => {
-  const validationRule ={
+const saveOils = (req, res, next) => {
+  const validationRule = {
     name: 'required|string',
     brand: 'required|string',
     type: 'required|string',

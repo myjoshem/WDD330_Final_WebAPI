@@ -6,7 +6,7 @@ const doc = {
     description: 'Books API'
   },
   host: 'cse341-book-server.onrender.com',
-  schemes: ['https','http']
+  schemes: ['https', 'http']
 };
 
 const outputFile = './swagger-output.json';

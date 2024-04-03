@@ -11,15 +11,25 @@ const ObjectId = require('mongodb').ObjectId;
 const dbTitle = 'oils';
 
 //create a variable for the unique fields of the current database
-const dbFieldsArray = ['name', 'brand', 'type', 'description', 'size', 'price', 'ingredients', 'item_number', 'image'];
+const dbFieldsArray = [
+  'name',
+  'brand',
+  'type',
+  'description',
+  'size',
+  'price',
+  'ingredients',
+  'item_number',
+  'image'
+];
 
 //all code below this line requires no changes
 
 //creates an object based on the fields from the database fields array
-const dbObject = dbFieldsArray.reduce((obj, field) => {
+/* const dbObject = dbFieldsArray.reduce((obj, field) => {
   obj[field] = true;
   return obj;
-}, {});
+}, {}); */
 
 //Rather than repeat this code in each method below, I put it into a function that I can use in the if statement instead. The 'req' parameter passes in the 'req.body' obtained inside the individual function and 'requiredFields' parameter passes in the global dbFieldsArray variable.
 function checkData(req, requiredFields) {
