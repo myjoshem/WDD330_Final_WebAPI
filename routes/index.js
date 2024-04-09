@@ -27,5 +27,6 @@ router.get('/profile', requiresAuth(), (req, res) => {
 
 router.use('/', require('./swagger'));
 router.use('/oils', require('./oils'));
+router.use('/hammocks', require('./hammocks'));
 
 module.exports = router;
