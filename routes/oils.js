@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 const dbMethod = require('../controllers/oils');
 const validation = require('../middleware/validate');
-const validate = validation.saveOils;
+const validate = validation.saveData;
 
 // Gets all database objects
 router.get('/', dbMethod.getMany);

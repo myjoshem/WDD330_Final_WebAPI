@@ -1,132 +1,355 @@
 {
-  "Result": [
-    {
-      "name": "Lavender",
-      "brand": "Doterra",
-      "type": "single",
-      "description": "Lavender essential oil is known for its calming and relaxing properties.",
-      "size": "15 mL",
-      "price": 25.99,
-      "ingredients": ["Lavandula angustifolia oil"],
-      "item_number": "DT-001",
-      "image": "lavender.jpg"
-    },
-    {
-      "name": "Peppermint",
-      "brand": "Doterra",
-      "type": "single",
-      "description": "Peppermint essential oil is invigorating and promotes clear breathing.",
-      "size": "15 mL",
-      "price": 27.99,
-      "ingredients": ["Mentha piperita oil"],
-      "item_number": "DT-002",
-      "image": "peppermint.jpg"
-    },
-    {
-      "name": "Lemon",
-      "brand": "Doterra",
-      "type": "single",
-      "description": "Lemon essential oil has cleansing and purifying properties.",
-      "size": "15 mL",
-      "price": 14.5,
-      "ingredients": ["Citrus limon peel oil"],
-      "item_number": "DT-003",
-      "image": "lemon.jpg"
-    },
-    {
-      "name": "Thieves",
-      "brand": "Young Living",
-      "type": "blend",
-      "description": "Thieves essential oil blend supports a healthy immune system.",
-      "size": "15 mL",
-      "price": 45.0,
-      "ingredients": [
-        "Eucalyptus radiata leaf oil",
-        "Clove bud oil",
-        "Lemon peel oil",
-        "Cinnamon bark oil",
-        "Rosemary leaf oil"
-      ],
-      "item_number": "YL-001",
-      "image": "thieves.jpg"
-    },
-    {
-      "name": "Frankincense",
-      "brand": "Young Living",
-      "type": "single",
-      "description": "Frankincense essential oil is often used for its grounding and uplifting properties.",
-      "size": "15 mL",
-      "price": 73.25,
-      "ingredients": ["Boswellia carterii oil"],
-      "item_number": "YL-002",
-      "image": "frankincense.jpg"
-    },
-    {
-      "name": "Tea Tree",
-      "brand": "Young Living",
-      "type": "single",
-      "description": "Tea Tree essential oil is renowned for its cleansing and rejuvenating properties.",
-      "size": "15 mL",
-      "price": 34.75,
-      "ingredients": ["Melaleuca alternifolia leaf oil"],
-      "item_number": "YL-003",
-      "image": "tea_tree.jpg"
-    },
-    {
-      "name": "Eucalyptus",
-      "brand": "Doterra",
-      "type": "single",
-      "description": "Eucalyptus essential oil promotes feelings of clear breathing and open airways.",
-      "size": "15 mL",
-      "price": 18.5,
-      "ingredients": ["Eucalyptus globulus leaf oil"],
-      "item_number": "DT-004",
-      "image": "eucalyptus.jpg"
-    },
-    {
-      "name": "Oregano",
-      "brand": "Doterra",
-      "type": "single",
-      "description": "Oregano essential oil supports a healthy immune system and digestion.",
-      "size": "15 mL",
-      "price": 22.0,
-      "ingredients": ["Origanum vulgare leaf oil"],
-      "item_number": "DT-005",
-      "image": "oregano.jpg"
-    },
-    {
-      "name": "Peace & Calming",
-      "brand": "Young Living",
-      "type": "blend",
-      "description": "Peace & Calming essential oil blend promotes relaxation and emotional well-being.",
-      "size": "15 mL",
-      "price": 57.5,
-      "ingredients": [
-        "Tangerine peel oil",
-        "Ylang Ylang flower oil",
-        "Orange peel oil",
-        "Patchouli oil",
-        "Blue Tansy flower oil"
-      ],
-      "item_number": "YL-004",
-      "image": "peace_calming.jpg"
-    },
-    {
-      "name": "Breathe Easy",
-      "brand": "Doterra",
-      "type": "blend",
-      "description": "Breathe Easy essential oil blend supports respiratory health and clear breathing.",
-      "size": "15 mL",
-      "price": 31.75,
-      "ingredients": [
-        "Eucalyptus globulus leaf oil",
-        "Peppermint oil",
-        "Melaleuca alternifolia leaf oil",
-        "Lemon peel oil",
-        "Cardamom seed oil"
-      ],
-      "item_number": "DT-006",
-      "image": "breathe_easy.jpg"
-    }
-  ]
-}
+    "Result": [
+      {
+        "Id": "DT-001",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/dt001/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/dt001/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Lavender",
+        "Name": "Doterra Lavender Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "lavender.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lavender.jpg",
+          "PrimaryLarge": "lavender.jpg",
+          "PrimaryExtraLarge": "lavender.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Lavender essential oil is known for its calming and relaxing properties.",
+        "SuggestedRetailPrice": 25.99,
+        "Brand": {
+          "Id": "DT",
+          "Url": "/brand/dt/",
+          "ProductsUrl": "/products?Brand=DT/",
+          "LogoSrc": "doterra_logo.jpg",
+          "Name": "Doterra"
+        },
+        "ListPrice": 25.99,
+        "FinalPrice": 25.99
+      },
+      {
+        "Id": "DT-002",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/dt002/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/dt002/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Peppermint",
+        "Name": "Doterra Peppermint Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "peppermint.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Peppermint.jpg",
+          "PrimaryLarge": "peppermint.jpg",
+          "PrimaryExtraLarge": "peppermint.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Peppermint essential oil is invigorating and promotes clear breathing.",
+        "SuggestedRetailPrice": 27.99,
+        "Brand": {
+          "Id": "DT",
+          "Url": "/brand/dt/",
+          "ProductsUrl": "/products?Brand=DT/",
+          "LogoSrc": "doterra_logo.jpg",
+          "Name": "Doterra"
+        },
+        "ListPrice": 27.99,
+        "FinalPrice": 27.99
+      },
+      {
+        "Id": "DT-003",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/dt003/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/dt003/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Lemon",
+        "Name": "Doterra Lemon Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "lemon.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lemon.jpg",
+          "PrimaryLarge": "lemon.jpg",
+          "PrimaryExtraLarge": "lemon.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Lemon essential oil has cleansing and purifying properties.",
+        "SuggestedRetailPrice": 14.5,
+        "Brand": {
+          "Id": "DT",
+          "Url": "/brand/dt/",
+          "ProductsUrl": "/products?Brand=DT/",
+          "LogoSrc": "doterra_logo.jpg",
+          "Name": "Doterra"
+        },
+        "ListPrice": 14.5,
+        "FinalPrice": 14.5
+      },
+      {
+        "Id": "YL-001",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/yl001/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/yl001/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Thieves",
+        "Name": "Young Living Thieves Essential Oil Blend",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "thieves.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Thieves.jpg",
+          "PrimaryLarge": "thieves.jpg",
+          "PrimaryExtraLarge": "thieves.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Thieves essential oil blend supports a healthy immune system.",
+        "SuggestedRetailPrice": 45.0,
+        "Brand": {
+          "Id": "YL",
+          "Url": "/brand/yl/",
+          "ProductsUrl": "/products?Brand=YL/",
+          "LogoSrc": "youngliving_logo.jpg",
+          "Name": "Young Living"
+        },
+        "ListPrice": 45.0,
+        "FinalPrice": 45.0
+      },
+      {
+        "Id": "YL-002",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/yl002/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/yl002/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Frankincense",
+        "Name": "Young Living Frankincense Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "frankincense.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Frankincense.jpg",
+          "PrimaryLarge": "frankincense.jpg",
+          "PrimaryExtraLarge": "frankincense.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Frankincense essential oil is often used for its grounding and uplifting properties.",
+        "SuggestedRetailPrice": 73.25,
+        "Brand": {
+          "Id": "YL",
+          "Url": "/brand/yl/",
+          "ProductsUrl": "/products?Brand=YL/",
+          "LogoSrc": "youngliving_logo.jpg",
+          "Name": "Young Living"
+        },
+        "ListPrice": 73.25,
+        "FinalPrice": 73.25
+      },
+      {
+        "Id": "YL-003",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/yl003/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/yl003/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Tea Tree",
+        "Name": "Young Living Tea Tree Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "tea_tree.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/TeaTree.jpg",
+          "PrimaryLarge": "tea_tree.jpg",
+          "PrimaryExtraLarge": "tea_tree.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Tea Tree essential oil is renowned for its cleansing and rejuvenating properties.",
+        "SuggestedRetailPrice": 34.75,
+        "Brand": {
+          "Id": "YL",
+          "Url": "/brand/yl/",
+          "ProductsUrl": "/products?Brand=YL/",
+          "LogoSrc": "youngliving_logo.jpg",
+          "Name": "Young Living"
+        },
+        "ListPrice": 34.75,
+        "FinalPrice": 34.75
+      },
+      {
+        "Id": "DT-004",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/dt004/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/dt004/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Eucalyptus",
+        "Name": "Doterra Eucalyptus Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "eucalyptus.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Eucalyptus.jpg",
+          "PrimaryLarge": "eucalyptus.jpg",
+          "PrimaryExtraLarge": "eucalyptus.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Eucalyptus essential oil promotes feelings of clear breathing and open airways.",
+        "SuggestedRetailPrice": 18.5,
+        "Brand": {
+          "Id": "DT",
+          "Url": "/brand/dt/",
+          "ProductsUrl": "/products?Brand=DT/",
+          "LogoSrc": "doterra_logo.jpg",
+          "Name": "Doterra"
+        },
+        "ListPrice": 18.5,
+        "FinalPrice": 18.5
+      },
+      {
+        "Id": "DT-005",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/dt005/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/dt005/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Oregano",
+        "Name": "Doterra Oregano Essential Oil",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "oregano.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Oregano.jpg",
+          "PrimaryLarge": "oregano.jpg",
+          "PrimaryExtraLarge": "oregano.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Oregano essential oil supports a healthy immune system and digestion.",
+        "SuggestedRetailPrice": 22.0,
+        "Brand": {
+          "Id": "DT",
+          "Url": "/brand/dt/",
+          "ProductsUrl": "/products?Brand=DT/",
+          "LogoSrc": "doterra_logo.jpg",
+          "Name": "Doterra"
+        },
+        "ListPrice": 22.0,
+        "FinalPrice": 22.0
+      },
+      {
+        "Id": "YL-004",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/yl004/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/yl004/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Peace & Calming",
+        "Name": "Young Living Peace & Calming Essential Oil Blend",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "peace_calming.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/PeaceCalming.jpg",
+          "PrimaryLarge": "peace_calming.jpg",
+          "PrimaryExtraLarge": "peace_calming.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Peace & Calming essential oil blend promotes relaxation and emotional well-being.",
+        "SuggestedRetailPrice": 57.5,
+        "Brand": {
+          "Id": "YL",
+          "Url": "/brand/yl/",
+          "ProductsUrl": "/products?Brand=YL/",
+          "LogoSrc": "youngliving_logo.jpg",
+          "Name": "Young Living"
+        },
+        "ListPrice": 57.5,
+        "FinalPrice": 57.5
+      },
+      {
+        "Id": "DT-006",
+        "Category": "oils",
+        "IsClearance": false,
+        "IsNew": false,
+        "Url": "/product/dt006/",
+        "Reviews": {
+          "ReviewsUrl": "/reviewsbyproduct/dt006/",
+          "ReviewCount": 0,
+          "AverageRating": 0
+        },
+        "NameWithoutBrand": "Breathe Easy",
+        "Name": "Doterra Breathe Easy Essential Oil Blend",
+        "IsFamousBrand": false,
+        "Images": {
+          "PrimarySmall": "breathe_easy.jpg",
+          "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Breathe.jpg",
+          "PrimaryLarge": "breathe_easy.jpg",
+          "PrimaryExtraLarge": "breathe_easy.jpg",
+          "ExtraImages": null
+        },
+        "SizesAvailable": {},
+        "Colors": [],
+        "DescriptionHtmlSimple": "Breathe Easy essential oil blend supports respiratory health and clear breathing.",
+        "SuggestedRetailPrice": 31.75,
+        "Brand": {
+          "Id": "DT",
+          "Url": "/brand/dt/",
+          "ProductsUrl": "/products?Brand=DT/",
+          "LogoSrc": "doterra_logo.jpg",
+          "Name": "Doterra"
+        },
+        "ListPrice": 31.75,
+        "FinalPrice": 31.75
+      }
+    ]
+  }
+  

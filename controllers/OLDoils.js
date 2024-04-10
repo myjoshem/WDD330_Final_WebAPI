@@ -1,42 +1,47 @@
 /* global module */
 
-const mongodb = require('../db/connect');
+//To create a new controller, you only need to copy this code and change 2 items:
+//1. dbTitle = new collection name
+//2. dbFieldsArray = fields in the new collection
 
-// Create a variable for the database title
+const mongodb = require('../db/connect');
+const ObjectId = require('mongodb').ObjectId;
+
+//create a variable for the database title
 const dbTitle = 'oils';
 
-// Create a variable for the unique fields of the current database
+//create a variable for the unique fields of the current database
 const dbFieldsArray = [
-  'Id',
-  'Category',
-  'IsClearance',
-  'IsNew',
-  'Url',
-  'Reviews',
-  'NameWithoutBrand',
-  'Name',
-  'IsFamousBrand',
-  'Images',
-  'SizesAvailable',
-  'Colors',
-  'DescriptionHtmlSimple',
-  'SuggestedRetailPrice',
-  'Brand',
-  'ListPrice',
-  'FinalPrice'
+  'name',
+  'brand',
+  'type',
+  'description',
+  'size',
+  'price',
+  'ingredients',
+  'item_number',
+  'image'
 ];
 
-// Function to check if all required fields are present in the request body
+//all code below this line requires no changes
+
+//creates an object based on the fields from the database fields array
+/* const dbObject = dbFieldsArray.reduce((obj, field) => {
+  obj[field] = true;
+  return obj;
+}, {}); */
+
+//Rather than repeat this code in each method below, I put it into a function that I can use in the if statement instead. The 'req' parameter passes in the 'req.body' obtained inside the individual function and 'requiredFields' parameter passes in the global dbFieldsArray variable.
 function checkData(req, requiredFields) {
   for (const field of requiredFields) {
-    if (!req.body[field]) {
+    if (!req[field]) {
       return false;
     }
   }
   return true;
 }
 
-const getMany = async (req, res) => {
+async function getMany(req, res) {
   try {
     const db = await mongodb.getDb();
     const result = await db.collection(dbTitle).find().toArray();
@@ -47,16 +52,16 @@ const getMany = async (req, res) => {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
-};
+}
 
 const getOne = async (req, res) => {
   try {
     const db = await mongodb.getDb();
-    const itemId = req.params.id;
-    const result = await db.collection(dbTitle).findOne({ Id: itemId });
+    const userId = new ObjectId(req.params.id);
+    const result = await db.collection(dbTitle).findOne({ _id: userId });
 
     if (!result) {
-      res.status(404).json({ error: 'Item not found' });
+      res.status(404).json({ error: 'Content not found' });
     } else {
       res.setHeader('Content-Type', 'application/json');
       res.status(200).json(result);
@@ -72,15 +77,15 @@ const create = async (req, res) => {
     const db = await mongodb.getDb();
 
     // Validate required fields
-    if (!checkData(req.body, dbFieldsArray)) {
+    if (checkData(req.body, dbFieldsArray)) {
       return res.status(400).json({ error: 'All fields are required' });
+    } else {
+      // Create a new contact
+      const result = await db.collection(dbTitle).insertOne(req.body);
+
+      // Return the new contact id in the response body
+      res.status(201).json({ _id: result.insertedId });
     }
-
-    // Create a new hammock
-    const result = await db.collection(dbTitle).insertOne(req.body);
-
-    // Return the new hammock id in the response body
-    res.status(201).json({ _id: result.insertedId });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
@@ -90,19 +95,19 @@ const create = async (req, res) => {
 const update = async (req, res) => {
   try {
     const db = await mongodb.getDb();
-    const itemId = req.params.id;
+    const userId = new ObjectId(req.params.id);
 
     // Validate required fields
-    if (!checkData(req.body, dbFieldsArray)) {
+    if (checkData(req.body, dbFieldsArray)) {
       return res.status(400).json({ error: 'All fields are required' });
     }
 
-    // Update the hammock
-    const result = await db.collection(dbTitle).updateOne({ Id: itemId }, { $set: req.body });
+    // Update the contact
+    const result = await db.collection(dbTitle).updateOne({ _id: userId }, { $set: req.body });
 
-    // Check if the hammock was updated successfully
+    // Check if the contact was updated successfully
     if (result.matchedCount === 0) {
-      return res.status(404).json({ error: 'Item not found' });
+      return res.status(404).json({ error: 'Content not found' });
     }
 
     // Return HTTP status code representing successful completion
@@ -116,14 +121,14 @@ const update = async (req, res) => {
 const deleteItem = async (req, res) => {
   try {
     const db = await mongodb.getDb();
-    const itemId = req.params.id;
+    const userId = new ObjectId(req.params.id);
 
-    // Delete the hammock
-    const result = await db.collection(dbTitle).deleteOne({ Id: itemId });
+    // Delete the contact
+    const result = await db.collection(dbTitle).deleteOne({ _id: userId });
 
-    // Check if the hammock was deleted successfully
+    // Check if the contact was deleted successfully
     if (result.deletedCount === 0) {
-      return res.status(404).json({ error: 'Item not found' });
+      return res.status(404).json({ error: 'Content not found' });
     }
 
     // Return HTTP status code representing successful completion
