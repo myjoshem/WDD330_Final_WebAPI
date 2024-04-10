@@ -1,11 +1,9 @@
 /* global module */
 
 const mongodb = require('../db/connect');
-const ObjectId = require('mongodb').ObjectId;
-
 
 // Create a variable for the database title
-const dbTitle = 'hammocks';
+const dbTitle = 'sleeping-bags';
 
 // Create a variable for the unique fields of the current database
 const dbFieldsArray = [
@@ -55,7 +53,7 @@ const getOne = async (req, res) => {
   try {
     const db = await mongodb.getDb();
     const itemId = req.params.id;
-    const result = await db.collection(dbTitle).findOne({ Id: itemId }).toArray();
+    const result = await db.collection(dbTitle).findOne({ Id: itemId });
 
     if (!result) {
       res.status(404).json({ error: 'Item not found' });

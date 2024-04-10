@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const dbMethod = require('../controllers/hammocks');
+const dbMethod = require('../controllers/tents');
 const validation = require('../middleware/validate');
 const validate = validation.saveData;
 

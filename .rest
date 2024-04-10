@@ -1,6 +1,6 @@
 // LocalHost
 ###
-GET http://localhost:8080/hammocks HTTP/1.1
+GET http://localhost:8080/sleeping-bags HTTP/1.1
 
 ###
 GET http://localhost:8080/hammocks HTTP/1.1
