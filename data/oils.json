@@ -15,14 +15,21 @@
         "Name": "Doterra Lavender Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "lavender.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lavender.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lavender.jpg",
-          "PrimaryLarge": "lavender.jpg",
-          "PrimaryExtraLarge": "lavender.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lavender.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lavender.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Lavender essential oil is known for its calming and relaxing properties.",
         "SuggestedRetailPrice": 25.99,
         "Brand": {
@@ -50,14 +57,21 @@
         "Name": "Doterra Peppermint Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "peppermint.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Peppermint.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Peppermint.jpg",
-          "PrimaryLarge": "peppermint.jpg",
-          "PrimaryExtraLarge": "peppermint.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Peppermint.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Peppermint.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Peppermint essential oil is invigorating and promotes clear breathing.",
         "SuggestedRetailPrice": 27.99,
         "Brand": {
@@ -85,14 +99,21 @@
         "Name": "Doterra Lemon Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "lemon.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lemon.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lemon.jpg",
-          "PrimaryLarge": "lemon.jpg",
-          "PrimaryExtraLarge": "lemon.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lemon.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Lemon.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Lemon essential oil has cleansing and purifying properties.",
         "SuggestedRetailPrice": 14.5,
         "Brand": {
@@ -120,14 +141,21 @@
         "Name": "Young Living Thieves Essential Oil Blend",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "thieves.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Thieves.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Thieves.jpg",
-          "PrimaryLarge": "thieves.jpg",
-          "PrimaryExtraLarge": "thieves.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Thieves.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Thieves.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Thieves essential oil blend supports a healthy immune system.",
         "SuggestedRetailPrice": 45.0,
         "Brand": {
@@ -155,14 +183,21 @@
         "Name": "Young Living Frankincense Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "frankincense.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Frankincense.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Frankincense.jpg",
-          "PrimaryLarge": "frankincense.jpg",
-          "PrimaryExtraLarge": "frankincense.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Frankincense.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Frankincense.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Frankincense essential oil is often used for its grounding and uplifting properties.",
         "SuggestedRetailPrice": 73.25,
         "Brand": {
@@ -190,14 +225,21 @@
         "Name": "Young Living Tea Tree Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "tea_tree.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/TeaTree.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/TeaTree.jpg",
-          "PrimaryLarge": "tea_tree.jpg",
-          "PrimaryExtraLarge": "tea_tree.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/TeaTree.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/TeaTree.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Tea Tree essential oil is renowned for its cleansing and rejuvenating properties.",
         "SuggestedRetailPrice": 34.75,
         "Brand": {
@@ -225,14 +267,21 @@
         "Name": "Doterra Eucalyptus Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "eucalyptus.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Eucalyptus.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Eucalyptus.jpg",
-          "PrimaryLarge": "eucalyptus.jpg",
-          "PrimaryExtraLarge": "eucalyptus.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Eucalyptus.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Eucalyptus.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Eucalyptus essential oil promotes feelings of clear breathing and open airways.",
         "SuggestedRetailPrice": 18.5,
         "Brand": {
@@ -260,14 +309,21 @@
         "Name": "Doterra Oregano Essential Oil",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "oregano.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Oregano.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Oregano.jpg",
-          "PrimaryLarge": "oregano.jpg",
-          "PrimaryExtraLarge": "oregano.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Oregano.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Oregano.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Oregano essential oil supports a healthy immune system and digestion.",
         "SuggestedRetailPrice": 22.0,
         "Brand": {
@@ -295,14 +351,21 @@
         "Name": "Young Living Peace & Calming Essential Oil Blend",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "peace_calming.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/PeaceCalming.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/PeaceCalming.jpg",
-          "PrimaryLarge": "peace_calming.jpg",
-          "PrimaryExtraLarge": "peace_calming.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/PeaceCalming.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/PeaceCalming.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Peace & Calming essential oil blend promotes relaxation and emotional well-being.",
         "SuggestedRetailPrice": 57.5,
         "Brand": {
@@ -330,14 +393,21 @@
         "Name": "Doterra Breathe Easy Essential Oil Blend",
         "IsFamousBrand": false,
         "Images": {
-          "PrimarySmall": "breathe_easy.jpg",
+          "PrimarySmall": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Breathe.jpg",
           "PrimaryMedium": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Breathe.jpg",
-          "PrimaryLarge": "breathe_easy.jpg",
-          "PrimaryExtraLarge": "breathe_easy.jpg",
+          "PrimaryLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Breathe.jpg",
+          "PrimaryExtraLarge": "https://myjoshem.github.io/WDD330-FinalProject/src/public/images/oils/Breathe.jpg",
           "ExtraImages": null
         },
         "SizesAvailable": {},
-        "Colors": [],
+        "Colors": [
+            {
+              "ColorCode": "01",
+              "ColorName": "Not Applicable",
+              "ColorChipImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/colorchip/17yty-01.jpg",
+              "ColorPreviewImageSrc": "http://server-nodejs.cit.byui.edu:3000/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+            }
+          ],
         "DescriptionHtmlSimple": "Breathe Easy essential oil blend supports respiratory health and clear breathing.",
         "SuggestedRetailPrice": 31.75,
         "Brand": {

@@ -12,6 +12,23 @@ app.use(express.json()); // Adding middleware to parse JSON in incoming requests
 // Use the cors middleware to handle CORS headers
 app.use(cors());
 
+// Middleware to handle CORS headers
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*'); // Adjust to only allow requests from specific domains in production
+  res.setHeader(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept, Z-Key'
+  );
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  next();
+});
+
+/* // Middleware to format response for all routes
+app.use('/books', (req, res, next) => {
+  res.setHeader('Content-Type', 'application/json');
+  next();
+}); */
+
 // Importing routes from a separate file and mounting them on the root path
 app.use('/', require('./routes'));
 
